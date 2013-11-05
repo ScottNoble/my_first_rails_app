@@ -1,0 +1,43 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-05 12:29:35 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p247@my_first_rails_app/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 57ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello" for 127.0.0.1 at 2013-11-05 12:29:44 -0700
+Processing by WelcomeController#hello as HTML
+  Rendered welcome/hello.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1359ms (Views: 1357.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-05 12:29:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:45 -0700
+
+
+Started GET "/hello/bob" for 127.0.0.1 at 2013-11-05 12:29:49 -0700
+Processing by WelcomeController#hello as HTML
+  Parameters: {"name"=>"bob"}
+  Rendered welcome/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-05 12:29:49 -0700
