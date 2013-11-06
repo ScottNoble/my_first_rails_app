@@ -3,7 +3,8 @@ MyFirstRailsApp::Application.routes.draw do
   # Route /hello to the WelcomeController hello method
   get 'hello' => 'welcome#hello'
   get 'hello/:name' => 'welcome#hello'
-
+  get 'time/now' => 'welcome#time'
+  get 'introduce/:name/and/:name2' => 'welcome#introduce'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
