@@ -1,28 +1,9 @@
 == README
+Ruby version 2.0.0
+This file is a practice app that we did in class to work on routing and using ruby injections in html. 
+There are three main functionalities in this app.
+ /time/now you will giv the current time in a custom format
+ /hello will load a page that says "Hello World"
+ /hello/name will load a page that says "Hello Name"
+ /introduce/name1/and/name2 will load a page that says "Hello Name1, have you met Name2? Name1, this is Name2."
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
